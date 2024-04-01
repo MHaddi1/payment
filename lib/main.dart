@@ -90,8 +90,8 @@ class _PaySampleAppState extends State<PaySampleApp> {
           PaymentConfiguration.fromJsonString(defaultGooglePay),
       paymentItems: const [
         PaymentItem(
-            amount: "0.1",
-            label: "Item1",
+            amount: "0.1", //add aamount
+            label: "Item1", //item Name
             status: PaymentItemStatus.final_price),
       ],
       width: double.infinity,
